@@ -3,7 +3,8 @@
 	"version": "0.0.0",
 	"scripts": {
 		"ng": "ng",
-		"start": "bun run build && wrangler dev",
+		"dev": "ng serve --open",
+		"dev:ssr": "bun run build && wrangler dev",
 		"build": "ng build",
 		"watch": "ng build --watch --configuration development",
 		"test": "ng test",
